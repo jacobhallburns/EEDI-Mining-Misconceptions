@@ -1,0 +1,23 @@
+Develop an NLP model driven by ML to accurately predict the affinity between
+misconceptions and incorrect answers (distractors) in multiple-choice questions.
+The solution will suggest candidate misconceptions for distractors, making it
+easuer fir expert humans to tag distractors with misconceptions.
+
+Start Date: September 12th, 2024
+End Date: December 12th, 2024
+
+A Diagnostic Question is a multiple-choice question with four options:
+One Correct Answer and three distractors (incorrect answers).
+Each distractor is carefully crafted to capture a specific misconception.
+
+Tagging distractors with appropriate misconceptions is essential but time consuming.
+It difficult to achieve consistency across multiple human labelers.
+Misconceptions vary significantly in terms of description granularity.
+New misconceptions are often discovered as human labellers tag distractors in new topic areas.
+
+Initial efforts to use pre-trained models have not been successful. A more consistent
+approach is needed to streamline the tagging process and enhance the overall quality.
+
+This competition challenges us to develop a Natural Language Processing (NLP) model driven by Machine Learning (ML).
+This model predicts the affinity between misconceptions and distractors.
+Create a model that not only aligns with known misconceptions but also generalizes to new emerging misconceptions.
